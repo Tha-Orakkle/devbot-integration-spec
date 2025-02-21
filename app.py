@@ -12,14 +12,14 @@ app.config['ENV'] = os.getenv('FLASK_ENV', "production")
 app.config['DEBUG'] = os.getenv('FLASK_DEBUG', "0") == "1"
 
 
-CORS(app, resources={r"/*": {"origins": "https://google.com"}}, supports_credentials=False)
+CORS(app, resources={r"/*": {"origins": "*"}}, supports_credentials=False)
 
 @app.errorhandler(404)
 def not_found(error):
     return jsonify({
         "message": "Not Found",
         "status": 404,
-        "endpoint": "https://127.0.0.1/integration.json"
+        "endpoint": "https://devbot-integration-spec.up.railway.app/api/integration.json"
     }), 404
 
 @app.route('/api/integration.json')
