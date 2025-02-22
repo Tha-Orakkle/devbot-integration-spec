@@ -19,10 +19,17 @@ def not_found(error):
     return jsonify({
         "message": "Not Found",
         "status": 404,
-        "endpoint": "https://devbot-integration-spec.up.railway.app/api/integration.json"
+        "url": "https://devbot-integration-spec.up.railway.app/api/integration.json"
     }), 404
 
-@app.route('/api/integration.json')
+@app.route('/', methods=['GET'])
+def index():
+    return jsonify({
+        "message": "welcome to devbot integration specification",
+        "url": "https://devbot-integration-spec.up.railway.app/api/integration.json" 
+    })
+
+@app.route('/api/integration.json', methods=['GET'])
 def get_integration_spec():
     return jsonify(SPECIFICATION)
 
