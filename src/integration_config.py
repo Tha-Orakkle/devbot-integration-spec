@@ -14,7 +14,7 @@ SPECIFICATION = {
             "app_url": "http://54.175.31.188",
             "background_color": "#e7e7e7" 
         },
-        "integration_category": "DevOps & CI/CD ",
+        "integration_category": "DevOps & CI/CD",
         "integration_type": "modifier",
         "is_active": False,
         "key_features": [
