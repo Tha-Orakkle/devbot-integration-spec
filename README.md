@@ -25,7 +25,7 @@ The integration specification for devbot for [telex](https://telex.im)
 }
 ```
 
-- spec available at https://
+- spec available at 'https://devbot-integration-spec.up.railway.app/api/integration.json'
 
 ## Author
 
