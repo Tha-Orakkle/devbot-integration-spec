@@ -33,6 +33,6 @@ def get_integration_spec():
     return jsonify(SPECIFICATION)
 
 
-@app.route('/v1/logo.jpg', methods=['GET'])
+@app.route('/v1/devbot-logo.jpg', methods=['GET'])
 def app_logo():
     return app.send_static_file('devbot.jpg')

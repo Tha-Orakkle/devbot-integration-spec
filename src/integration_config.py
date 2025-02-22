@@ -9,7 +9,7 @@ SPECIFICATION = {
             "Devops and CI/CD related queries and fetches logs from github action workflows " +
             "on request.",
 
-            "app_logo": "https://devbot-integration-spec.up.railway.app/v1/devbot.jpg",  # url to app_logo
+            "app_logo": "https://devbot-integration-spec.up.railway.app/v1/devbot-logo.jpg",  # url to app_logo
             "app_name": "ai-chatbot-for-devops",
             "app_url": "http://54.175.31.188",
             "background_color": "#e7e7e7" 
