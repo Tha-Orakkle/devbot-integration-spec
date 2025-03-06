@@ -2,9 +2,13 @@
 
 ## Description
 
-The integration specification for devbot for [telex](https://telex.im)
+The integration specification for devbot for [telex](https://telex.im). Telex is an event monitoring application where you can get notifications on different events occuring on your server etc. This is done with the help of integrations created to fit whatever purpose you need the application for.
 
-### Integration format
+The devbot integration creates an interface for DevOp engineers to get log events from their GitHub Action workflows. It also serves as an assistant that provides relevant AI generated responses to DevOps and CI/CD-related questions.
+
+This specification contains the necessary information to plug the integration to your Telex channel.
+
+### Specification format
 
 ```json
 {
@@ -25,7 +29,7 @@ The integration specification for devbot for [telex](https://telex.im)
 }
 ```
 
-- spec available at 'https://devbot-integration-spec.up.railway.app/api/integration.json'
+- spec available at [devbot-integration-specification](https://devbot-integration-spec.up.railway.app/api/integration.json)
 
 ## Author
 
